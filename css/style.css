@@ -102,7 +102,7 @@ main .container-imagem .container-descricao{
     justify-content: center;
     row-gap: 30px;
 }
-main .container-imagem .container-descricao a{
+main .container-imagem .btn-comprar a{
     background-color: black;
     color: white;
     border-radius: 5px;
@@ -142,29 +142,45 @@ main .container-imagem .container-descricao a{
    header .icons{
     display: none;
    }
+   main {
+    background: rgb(7,7,10);
+background: linear-gradient(90deg, rgba(7,7,10,1) 0%, rgba(2,2,11,1) 35%, rgba(72,62,59,1) 100%);
+
+   }
    .container-principal .container-imagem{
     font-size: 18px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     height: 100%;
     margin-top: 50px;
-    margin-left: 15px;
    }
-   .container-principal .container-imagem img{
-    width: 200px;
-    height: 150px;
+   .container-principal .container-imagem .container-descricao{
+    justify-content: center;
+    align-items: center;
    }
    .container-principal .container-imagem .container-descricao p{
-    font-size: 45px;
+    font-size: 50px;
     width: 160%;
-    margin-bottom: 10px;
+    color: white;
    }
    .container-principal .container-imagem .container-descricao p span{
     border-bottom: 5px solid;
+    color: #ff8800;
    }
-   .container-principal .container-imagem .container-descricao a{
-    width: 153%;
+   .container-principal .container-imagem .container-descricao .icons a{
+        font-size: 80px;
+        color: black;
    }
-
+   .container-principal .container-imagem .btn-comprar{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .container-principal .container-imagem .btn-comprar a{
+    background-color: #ff8800;
+    color: black;
+   }
 }
