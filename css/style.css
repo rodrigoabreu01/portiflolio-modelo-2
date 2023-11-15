@@ -81,12 +81,10 @@ main .container-imagem{
     width: 80%;
     height: 80%;
     display: flex;
+    flex-direction: column;
 }
-main .container-imagem img{
-    width: 850px;
-    height: 600px;
-    position: relative;
-   
+main .container-imagem .container-descricao .icons2{
+    display: none;
 }
 main .container-imagem p{
   font-size: 60px;
@@ -102,6 +100,10 @@ main .container-imagem .container-descricao{
     justify-content: center;
     row-gap: 30px;
 }
+main .container-imagem .btn-comprar{
+    margin-top: 30px;
+    width: 190px;
+}
 main .container-imagem .btn-comprar a{
     background-color: black;
     color: white;
@@ -109,7 +111,7 @@ main .container-imagem .btn-comprar a{
     padding: 10px;
     font-size: 15px;
     text-decoration: none;
-    width: 130px;
+    width: 180px;
     text-align: center;
 }
 
@@ -144,7 +146,7 @@ main .container-imagem .btn-comprar a{
    }
    main {
     background: rgb(7,7,10);
-background: linear-gradient(90deg, rgba(7,7,10,1) 0%, rgba(2,2,11,1) 35%, rgba(72,62,59,1) 100%);
+    background: linear-gradient(90deg, rgba(7,7,10,1) 0%, rgba(2,2,11,1) 35%, rgba(72,62,59,1) 100%);
 
    }
    .container-principal .container-imagem{
@@ -169,7 +171,10 @@ background: linear-gradient(90deg, rgba(7,7,10,1) 0%, rgba(2,2,11,1) 35%, rgba(7
     border-bottom: 5px solid;
     color: #ff8800;
    }
-   .container-principal .container-imagem .container-descricao .icons a{
+   .container-principal .container-imagem .container-descricao .icons2{
+    display: flex;
+   }
+   .container-principal .container-imagem .container-descricao .icons2 a{
         font-size: 80px;
         color: black;
    }
