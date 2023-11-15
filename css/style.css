@@ -69,8 +69,9 @@ main{
     width: 100%;
     height: 700px;
 
-    background: rgb(36,17,0);
-    background: linear-gradient(90deg, rgba(36,17,0,1) 0%, rgba(255,136,0,1) 39%, rgba(235,111,54,1) 67%);
+    background: rgb(7,7,10);
+    background: linear-gradient(90deg, rgba(7,7,10,1) 0%, rgba(2,2,11,1) 35%, rgba(72,62,59,1) 100%);
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,10 +88,11 @@ main .container-imagem .container-descricao .icons2{
     display: none;
 }
 main .container-imagem p{
-  font-size: 60px;
+  font-size: 70px;
+  color: white;
 }
 main .container-imagem p span{
-    color: aqua;
+    color: #ff8800;
 }
 main .container-imagem .container-descricao{
     position: relative;
@@ -101,17 +103,21 @@ main .container-imagem .container-descricao{
     row-gap: 30px;
 }
 main .container-imagem .btn-comprar{
-    margin-top: 30px;
-    width: 190px;
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ff8800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 main .container-imagem .btn-comprar a{
-    background-color: black;
-    color: white;
+    
+    color: black;
     border-radius: 5px;
-    padding: 10px;
     font-size: 15px;
     text-decoration: none;
-    width: 180px;
     text-align: center;
 }
 
