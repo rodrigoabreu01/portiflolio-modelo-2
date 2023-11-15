@@ -76,32 +76,20 @@ main{
     width: 100%;
     
 }
-main .container-oculos{
-    width: 50%;
-    float: right;
-    height: 80%;
-    position: relative;
-    left: 20%;
-}
-main .container-oculos img{
-    width: 100%;
-    height: 85%;
-}
 main .container-imagem{
-    width: 70%;
+    width: 100%;
     left: 10%;
     height: 80%;
     display: flex;
     flex-direction: column;
-    position: absolute;
-
+    margin-left: 80px;
 }
 main .container-imagem .container-descricao .icons2{
     display: none;
     width: 100%;
 }
 main .container-imagem p{
-  font-size: 60px;
+  font-size: 65px;
   color: white;
   width: 100%;
 }
@@ -135,7 +123,18 @@ main .container-imagem .btn-comprar a{
     text-decoration: none;
     text-align: center;
 }
+/* Laptop */
+@media screen and (max-width: 1024px) {
+}
+/* smartphone pequeno */
+@media screen and (max-width: 320px){
 
+}
+/* smartphone medio */
+@media screen and (max-width: 375px){
+
+}
+/* smartphone large */
 @media screen and (max-width: 425px) {
    header{
     width: 100%;
@@ -179,6 +178,7 @@ main .container-imagem .btn-comprar a{
     height: 100%;
     margin-top: 50px;
     left: 0;
+    margin-left: 0px;
     margin-top: 40px;
    }
    .container-principal .container-imagem .container-descricao{
