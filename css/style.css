@@ -187,8 +187,9 @@ main .container-imagem .btn-comprar a{
    }
    .container-principal .container-imagem .container-descricao p{
     font-size: 43px;
-    width: 160%;
+    width: 150%;
     color: white;
+    text-align: center;
    }
    .container-principal .container-imagem .container-descricao p span{
     border-bottom: 5px solid;
