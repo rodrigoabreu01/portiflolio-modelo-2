@@ -100,6 +100,7 @@ main .container-imagem .container-descricao{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    row-gap: 30px;
 }
 main .container-imagem .container-descricao a{
     background-color: black;
@@ -145,17 +146,22 @@ main .container-imagem .container-descricao a{
     font-size: 18px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 100%;
     height: 100%;
     margin-top: 50px;
-    border: 1px solid saddlebrown;
+    margin-left: 15px;
    }
    .container-principal .container-imagem img{
-    width: 100px;
+    width: 200px;
+    height: 150px;
    }
    .container-principal .container-imagem .container-descricao p{
-    font-size: 35px;
-    width: 100%;
+    font-size: 45px;
+    width: 160%;
+    margin-bottom: 10px;
    }
+   .container-principal .container-imagem .container-descricao a{
+    width: 153%;
+   }
+
 }
