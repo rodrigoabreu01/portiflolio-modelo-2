@@ -68,31 +68,46 @@ header .icons a{
 main{
     width: 100%;
     height: 700px;
-
     background: rgb(7,7,10);
     background: linear-gradient(90deg, rgba(7,7,10,1) 0%, rgba(2,2,11,1) 35%, rgba(72,62,59,1) 100%);
-
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     
 }
+main .container-oculos{
+    width: 50%;
+    float: right;
+    height: 50%;
+    position: relative;
+    left: 20%;
+}
+main .container-oculos img{
+    width: 100%;
+    height: 100%;
+}
 main .container-imagem{
-    width: 80%;
+    width: 70%;
+    left: 10%;
     height: 80%;
     display: flex;
     flex-direction: column;
+    position: absolute;
+
 }
 main .container-imagem .container-descricao .icons2{
     display: none;
+    width: 100%;
 }
 main .container-imagem p{
-  font-size: 70px;
+  font-size: 60px;
   color: white;
+  width: 100%;
 }
 main .container-imagem p span{
     color: #ff8800;
+    border-bottom: 4px solid #ff8800;
 }
 main .container-imagem .container-descricao{
     position: relative;
