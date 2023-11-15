@@ -79,13 +79,13 @@ main{
 main .container-oculos{
     width: 50%;
     float: right;
-    height: 50%;
+    height: 80%;
     position: relative;
     left: 20%;
 }
 main .container-oculos img{
     width: 100%;
-    height: 100%;
+    height: 85%;
 }
 main .container-imagem{
     width: 70%;
