@@ -160,6 +160,9 @@ main .container-imagem .container-descricao a{
     width: 160%;
     margin-bottom: 10px;
    }
+   .container-principal .container-imagem .container-descricao p span{
+    border-bottom: 5px solid;
+   }
    .container-principal .container-imagem .container-descricao a{
     width: 153%;
    }
