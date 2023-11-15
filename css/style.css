@@ -80,11 +80,36 @@ main{
 main .container-imagem{
     width: 80%;
     height: 80%;
-    font-size: 50px;
-    background-image: url("C:\Users\Administrador\Desktop\JAVASCRIPT\meuportiflolio modelo 2\portiflolio-modelo-2\images\imag.jpg");
+    display: flex;
+}
+main .container-imagem img{
+    width: 850px;
+    height: 600px;
+    position: relative;
+   
 }
 main .container-imagem p{
-    margin-left: 50%;
+  font-size: 60px;
+}
+main .container-imagem p span{
+    color: aqua;
+}
+main .container-imagem .container-descricao{
+    position: relative;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main .container-imagem .container-descricao a{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    width: 130px;
+    text-align: center;
 }
 
 @media screen and (max-width: 425px) {
