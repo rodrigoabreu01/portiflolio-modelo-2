@@ -143,5 +143,19 @@ main .container-imagem .container-descricao a{
    }
    .container-principal .container-imagem{
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    border: 1px solid saddlebrown;
+   }
+   .container-principal .container-imagem img{
+    width: 100px;
+   }
+   .container-principal .container-imagem .container-descricao p{
+    font-size: 35px;
+    width: 100%;
    }
 }
